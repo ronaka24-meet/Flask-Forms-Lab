@@ -10,7 +10,11 @@
 </head>
 <body>
 
-
+{%if name in friends%}
+	<h2> True</h2>
+{%else%}
+	<h2> False</h2>
+{% endif %}
 
 </body>
 </html>
